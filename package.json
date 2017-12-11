@@ -1,0 +1,26 @@
+{
+  "name": "gestorprocesoslinux",
+  "version": "1.0.0",
+  "description": "gestiona los procesos de carpeta proc",
+  "main": "holaMundo.js",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramirezcrist/planificadorDeProcesos.git"
+  },
+  "keywords": [
+    "linux"
+  ],
+  "author": "cristian ramirez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramirezcrist/planificadorDeProcesos/issues"
+  },
+  "homepage": "https://github.com/ramirezcrist/planificadorDeProcesos#readme"
+}
