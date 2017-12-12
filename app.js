@@ -24,16 +24,4 @@ io.on('connection', function(client) {
     });
     });
 
-    /*
-funcion(){
-
-var resultado =  exec("egrep ... menfino");
-resultado = 1111 ;
-
-}
-
-
-    */
-
-
 server.listen(3000);
