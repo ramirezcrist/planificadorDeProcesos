@@ -7,7 +7,7 @@ app.use(express.static(__dirname + '/node_modules'));
 app.set("view engine", "jade");
 
 app.get('/', function (req, res) {
-  res.sendFile(__dirname+'/views/indexsocket.html');
+  res.sendFile(__dirname+'/views/index.html');
 });
 
 io.on('connection', function(client) {
@@ -19,7 +19,6 @@ io.on('connection', function(client) {
     });
 
     client.on('messages', function(data) {
-      funcion();
            client.emit('broad', data);
            client.broadcast.emit('broad',data);
     });
