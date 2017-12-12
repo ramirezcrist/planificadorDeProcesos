@@ -4,7 +4,11 @@
   "description": "gestiona los procesos de carpeta proc",
   "main": "holaMundo.js",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "jade": "^1.11.0",
+    "jquery": "^3.2.1",
+    "pug": "^2.0.0-rc.4",
+    "socket.io": "^2.0.4"
   },
   "devDependencies": {},
   "scripts": {
