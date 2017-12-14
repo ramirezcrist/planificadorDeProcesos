@@ -4,7 +4,7 @@
 
     </head>
     <body>
-        <h1>Hola JENNY!! TQ!!</h1>
+        <h1>DIAGNOSTICO DE PROCESOS LINUX</h1>
         <div id="future"></div>
         <form id="form" id="chat_form">
             <input id="chat_input" type="text">
@@ -14,12 +14,8 @@
         <script src="/socket.io/socket.io.js"></script>
         <script>
          var socket = io.connect('http://54.166.68.245:3000');
-         // socket.on('connect', function(data) {
-         //    socket.emit('join', 'Hello World from client');
-         // });
-        //  socket.on('messages', function(data) {
-        //         alert(data);
-        // });
+        // var socket = io.connect('http://localhost:3000');
+
         socket.on('broad', function(data) {
 
                  $('#future').append(data+ "<br/>");
