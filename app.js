@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 var server = require('http').createServer(app);
 var io = require('socket.io')(server);
-var fs require('fs');//Para agregar FileSystem
+var fs = require('fs');//Para agregar FileSystem
 var exec = require('child_process').exec,child, child1;;
 
 app.use(express.static(__dirname + '/node_modules'));
